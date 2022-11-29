@@ -1,0 +1,9 @@
+double percentual = (S*100 / M);    
+
+System.out.format("O desconto foi de %.0f%%%n" ,(100 - percentual));
+
+Esse debaixo deu certo:int resultadoPorcentagem = (M-S);
+
+int descontoPercentual = (resultadoPorcentagem * 100)/M;
+ 
+ System.out.println("O desconto foi de " + descontoPercentual + "%");
