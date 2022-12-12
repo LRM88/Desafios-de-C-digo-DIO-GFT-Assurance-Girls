@@ -1,0 +1,40 @@
+
+String msg;
+
+
+
+   switch (turno){
+
+    case 'M':
+
+     msg = "Bom Dia!";
+
+    break;
+
+    case 'V':
+
+     msg = "Boa Tarde!";
+
+    break;
+
+    case 'N': 
+
+     msg = "Boa Noite!";
+
+    break;
+
+    default:
+
+     msg = "Valor Inválido!";
+
+    break;
+
+   }
+
+   System.out.println(msg);
+
+  }
+
+
+
+}
